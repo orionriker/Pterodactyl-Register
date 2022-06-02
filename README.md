@@ -1,2 +1,2 @@
-# pterodactyl-register
+# Pterodactyl Register
 Pterodactyl Register Module
