@@ -10,4 +10,3 @@ and then copy the key and replace it in the `RegisterController.php` where it sa
 
 # 📄 Lisence
 This Pterodactyl Module is Lisenced under: **GNU General Public Lisence 3.0**
- 75
