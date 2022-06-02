@@ -10,6 +10,7 @@ Copy/Paste __RegisterContainer.tsx__ to __YOUR PTERODACTYL FOLDER /resources/scr
 ### 🔑 Api key
 You need to make a apikey in the admin panel with the read/write perms on "Users"
 and then copy the key and replace it in the `RegisterController.php` where it says *YOURAPIKEYHERE* on line __75__
+also don't forget to replace *YOURWEBSITEURL* to your website url on line __65__
 
 ### 🔗 Routes
 Add these lines at `YOUR PTERODACTYL FOLDER routes/auth.php`:<br>
