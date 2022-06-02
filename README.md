@@ -21,7 +21,9 @@ and the below route should be under `Route::middleware(['throttle:authentication
 ```php
 Route::post('/register', [RegisterController::class, 'register'])->name('auth.register.url')->middleware('recaptcha');
 ```
+
 <br>
+
 > **if you are on version __1.8.x__:**<br>
 ```php
 Route::get('/register', [Auth\RegisterController::class, 'index'])->name('auth.register');
