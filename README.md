@@ -12,7 +12,7 @@ You need to make a apikey in the admin panel with the read/write perms on "Users
 and then copy the key and replace it in the `RegisterController.php` where it says *YOURAPIKEYHERE* on line __75__
 
 ### 🔗 Routes
-Add these to lines at `/routes`:
+Add these to lines at `/routes/auth.php`:
 **if you are on version __1.7.9__:**<br>
 **if you are on version __1.8.x__:**<br>
 ```php
