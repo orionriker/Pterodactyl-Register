@@ -13,7 +13,7 @@ and then copy the key and replace it in the `RegisterController.php` where it sa
 
 ### 🔗 Routes
 Add these to lines at `/routes/auth.php`:<br>
-**if you are on version __1.7.0__:**<br>
+> **if you are on version __1.7.0__:**<br>
 ```php
 Route::get('/register', [RegisterController::class, 'index'])->name('auth.register');
 ```
@@ -21,7 +21,7 @@ and the below route should be under `Route::middleware(['throttle:authentication
 ```php
 Route::post('/register', [RegisterController::class, 'register'])->name('auth.register.url')->middleware('recaptcha');
 ```
-**if you are on version __1.8.x__:**<br>
+> **if you are on version __1.8.x__:**<br>
 ```php
 Route::get('/register', [Auth\RegisterController::class, 'index'])->name('auth.register');
 ```
