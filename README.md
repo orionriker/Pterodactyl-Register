@@ -18,7 +18,7 @@ Add these to lines at `/routes`:
 ```php
 Route::get('/register', [Auth\RegisterController::class, 'index'])->name('auth.register');
 ```
-<br>
+
 ```php
 Route::post('/register', [Auth\RegisterController::class, 'register'])->name('auth.register.url')->middleware('recaptcha');
 ```
