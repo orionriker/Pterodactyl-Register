@@ -1,4 +1,4 @@
-# Pterodactyl Register
+# 📦 Pterodactyl Register
 Pterodactyl Register Module, unlike some other modules this module's register page is made with reactjs
 
 # ⚙️ Configuration
@@ -8,5 +8,5 @@ and then copy the key and replace it in the `RegisterController.php` where it sa
 
 ### 🔗 Routes
 
-# Lisence
+# 📄 Lisence
 This Pterodactyl Module is Lisenced under: **GNU General Public Lisence 3.0**
