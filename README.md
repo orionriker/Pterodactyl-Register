@@ -1,5 +1,5 @@
 # 📦 Pterodactyl Register
-Pterodactyl Register Module, unlike some other modules this module's register page is made with reactjs
+Pterodactyl Register Module, this is usefull if you want to have a registration page in your pterodactyl panel for your clients to register
 
 ## ⚙️ Configuration
 
