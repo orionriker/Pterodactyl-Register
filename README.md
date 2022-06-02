@@ -4,8 +4,8 @@ Pterodactyl Register Module, unlike some other modules this module's register pa
 ## ⚙️ Configuration
 
 ### 📄 File Placement
-Copy/Paste `RegisterController.php` to `YOUR PTERODACTYL FOLDER /app/Http/Controllers/`
-Copy/Paste `RegisterContainer.tsx` to `YOUR PTERODACTYL FOLDER /resources/scripts/components/auth`
+Copy/Paste __RegisterController.php__ to __YOUR PTERODACTYL FOLDER /app/Http/Controllers/__<br>
+Copy/Paste __RegisterContainer.tsx__ to __YOUR PTERODACTYL FOLDER /resources/scripts/components/auth__
 
 ### 🔑 Api key
 You need to make a apikey in the admin panel with the read/write perms on "Users"
