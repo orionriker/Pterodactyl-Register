@@ -13,10 +13,14 @@ and then copy the key and replace it in the `RegisterController.php` where it sa
 
 ### 🔗 Routes
 Add these to lines at `/routes`:
-**if you are on version __1.7.9__:**
-
-**if you are on version __1.8.x__:**
-```php Route::post('/register', [Auth\RegisterController::class, 'register'])->name('auth.register.url')->middleware('recaptcha');```
+**if you are on version __1.7.9__:**<br>
+**if you are on version __1.8.x__:**<br>
+```php
+Route::get('/register', [Auth\RegisterController::class, 'index'])->name('auth.register');
+```<br>
+```php
+Route::post('/register', [Auth\RegisterController::class, 'register'])->name('auth.register.url')->middleware('recaptcha');
+```
 
 # 🎟️ Support
 This Module supports pterodactyl __1.7.9__ and __1.8.x__
