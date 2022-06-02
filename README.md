@@ -12,7 +12,7 @@ You need to make a apikey in the admin panel with the read/write perms on "Users
 and then copy the key and replace it in the `RegisterController.php` where it says *YOURAPIKEYHERE* on line __75__
 
 ### 🔗 Routes
-Add these to lines at `/routes/auth.php`:<br>
+Add these lines at `YOUR PTERODACTYL FOLDER routes/auth.php`:<br>
 
 <br>
 
@@ -36,10 +36,17 @@ and the below route should be under `Route::middleware(['throttle:authentication
 Route::post('/register', [Auth\RegisterController::class, 'register'])->name('auth.register.url')->middleware('recaptcha');
 ```
 
+<br>
+
+Add this line at `YOUR PTERODACTYL FOLDER /resources/scripts/routers/AuthenticationRouter.tsx`:<br>
+```php
+<Route path={`${path}/register`} component={RegisterContainer} exact/>
+```
+
 # 🎟️ Support
 This Module supports pterodactyl __1.7.x__
-for older versions i have not tested but you can do that and if you encounter problems
-open an issue and i'll try to solve it :D
+for older versions i have not tested but you can do that and also
+if you encounter problems or your confused open an issue and i'll try to solve it :D
 
 # 📄 Lisence
 This Pterodactyl Module is Lisenced under: **GNU General Public Lisence 3.0**
