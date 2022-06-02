@@ -14,6 +14,8 @@ and then copy the key and replace it in the `RegisterController.php` where it sa
 ### 🔗 Routes
 Add these to lines at `/routes/auth.php`:<br>
 
+<br>
+
 > **if you are on version __1.7.0__:**<br>
 ```php
 Route::get('/register', [RegisterController::class, 'index'])->name('auth.register');
