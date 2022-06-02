@@ -12,6 +12,11 @@ You need to make a apikey in the admin panel with the read/write perms on "Users
 and then copy the key and replace it in the `RegisterController.php` where it says *YOURAPIKEYHERE* on line __75__
 
 ### 🔗 Routes
+Add these to lines at `/routes`:
+**if you are on version __1.7.9__:**
+
+**if you are on version __1.8.x__:**
+```php Route::post('/register', [Auth\RegisterController::class, 'register'])->name('auth.register.url')->middleware('recaptcha');```
 
 # 🎟️ Support
 This Module supports pterodactyl __1.7.9__ and __1.8.x__
