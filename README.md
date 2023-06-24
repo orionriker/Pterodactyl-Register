@@ -1,7 +1,7 @@
 # 📦 Pterodactyl Register
 Pterodactyl Register Module, this is usefull if you want to have a registration page in your pterodactyl panel for your clients to register
 
-# ⚙️ Configuration
+# ⚙️ Installation
 
 ### 📄 File Placement
 Copy/Paste __RegisterController.php__ to __YOUR PTERODACTYL FOLDER /app/Http/Controllers/__<br>
