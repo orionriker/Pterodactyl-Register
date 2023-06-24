@@ -18,10 +18,11 @@ Add these lines at `YOUR PTERODACTYL FOLDER routes/auth.php`:<br>
 <br>
 
 > **if you are on version __1.7.0__:**<br>
+Add the following lines to `YOUR PTERODACTYL FOLDER/routes/auth.php`:
 ```php
 Route::get('/register', [RegisterController::class, 'index'])->name('auth.register');
 ```
-and the below route should be under `Route::middleware(['throttle:authentication'])`
+Place the below route under the `Route::middleware(['throttle:authentication'])`
 ```php
 Route::post('/register', [RegisterController::class, 'register'])->name('auth.register.url')->middleware('recaptcha');
 ```
@@ -29,10 +30,11 @@ Route::post('/register', [RegisterController::class, 'register'])->name('auth.re
 <br>
 
 > **if you are on version __1.8.x__:**<br>
+Add the following lines to `YOUR PTERODACTYL FOLDER/routes/auth.php`:
 ```php
 Route::get('/register', [Auth\RegisterController::class, 'index'])->name('auth.register');
 ```
-and the below route should be under `Route::middleware(['throttle:authentication'])`
+Place the below route under the `Route::middleware(['throttle:authentication'])`
 ```php
 Route::post('/register', [Auth\RegisterController::class, 'register'])->name('auth.register.url')->middleware('recaptcha');
 ```
