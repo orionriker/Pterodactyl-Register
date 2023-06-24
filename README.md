@@ -1,5 +1,8 @@
 # 📦 Pterodactyl Register
-Pterodactyl Register Module, this is usefull if you want to have a registration page in your pterodactyl panel for your clients to register
+The Pterodactyl Register Module is a valuable addition to your Pterodactyl panel, enabling you to incorporate a user registration page specifically designed for your clients. This module not only allows your clients to register easily but also maintains the cohesive Pterodactyl theme, ensuring a seamless user experience throughout the panel.<br>
+By integrating the Pterodactyl Register Module, you can provide a streamlined and intuitive registration process, enabling new users to quickly sign up and access your services. Whether you are managing a game server, hosting platform, or any other service powered by Pterodactyl, this module enhances the functionality of your panel by adding a user-friendly registration page.<br>
+Not only does the module offer a seamless user registration experience, but it also seamlessly integrates with the existing Pterodactyl login theme. This ensures consistency in the visual appearance and branding of your panel, creating a cohesive and professional interface for your clients<br>
+With the Pterodactyl Register Module, you can effortlessly enhance your Pterodactyl panel by providing a dedicated registration page that aligns with the familiar Pterodactyl design, ultimately improving user engagement and satisfaction.
 
 # ⚙️ Installation
 
