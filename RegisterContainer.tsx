@@ -17,7 +17,7 @@ interface Values {
     email: string;
 }
 
-export default () => {
+export function RegistrationForm() => {
     const ref = useRef<Reaptcha>(null);
     const [ token, setToken ] = useState('');
 
