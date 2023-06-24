@@ -19,7 +19,7 @@ class RegisterController extends Controller
     /**
      * @var Illuminate\Auth\AuthManager
      */
-	protected AuthManager $auth;
+    protected AuthManager $auth;
 
     /**
      * RegisterController constructor.
