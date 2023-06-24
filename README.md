@@ -13,11 +13,10 @@ and then copy the key and replace it in the `RegisterController.php` where it sa
 also don't forget to replace *YOURWEBSITEURL* to your website url on line __65__
 
 ### 🔗 Routes
-Add these lines at `YOUR PTERODACTYL FOLDER routes/auth.php`:<br>
-
 <br>
 
 > **if you are on version __1.7.0__:**<br>
+
 Add the following lines to `YOUR PTERODACTYL FOLDER/routes/auth.php`:
 ```php
 Route::get('/register', [RegisterController::class, 'index'])->name('auth.register');
@@ -30,6 +29,7 @@ Route::post('/register', [RegisterController::class, 'register'])->name('auth.re
 <br>
 
 > **if you are on version __1.8.x__:**<br>
+
 Add the following lines to `YOUR PTERODACTYL FOLDER/routes/auth.php`:
 ```php
 Route::get('/register', [Auth\RegisterController::class, 'index'])->name('auth.register');
