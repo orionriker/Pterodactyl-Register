@@ -39,15 +39,13 @@ Route::post('/register', [Auth\RegisterController::class, 'register'])->name('au
 
 <br>
 
-Add this line at `YOUR PTERODACTYL FOLDER /resources/scripts/routers/AuthenticationRouter.tsx`:<br>
+Additionally, regardless of the version of Pterodactyl you are using, add the following line to `YOUR PTERODACTYL FOLDER/resources/scripts/routers/AuthenticationRouter.tsx`:
 ```php
 <Route path={`${path}/register`} component={RegisterContainer} exact/>
 ```
 
 # 🎟️ Support
-This Module supports pterodactyl __1.7.x__
-for older versions i have not tested but you can do that and also
-if you encounter problems or your confused open an issue and i'll try to solve it :D
+This module is compatible with Pterodactyl version 1.7.x. Although I haven't tested it on older versions, you can give it a try. If you encounter any issues or need assistance, please open an issue, and I'll do my best to help you.
 
 # 📄 Lisence
-This Pterodactyl Module is Lisenced under: **GNU General Public Lisence 3.0**
+This Pterodactyl Module is licensed under the **GNU General Public Lisence 3.0**
