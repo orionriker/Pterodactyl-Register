@@ -65,6 +65,8 @@ Additionally, regardless of the version of Pterodactyl you are using, add the fo
 
 # 🎟️ Support
 This module is compatible with Pterodactyl version 1.7.x. Although I haven't tested it on older versions, you can give it a try. If you encounter any issues or need assistance, please open an issue, and I'll do my best to help you.
+<br>
+<br>
 
 # 📄 License
 This Pterodactyl Module is licensed under the **GNU General Public Lisence 3.0**
