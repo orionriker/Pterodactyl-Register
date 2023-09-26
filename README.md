@@ -13,8 +13,7 @@ By integrating the Pterodactyl Register Module, you can provide a streamlined an
 Not only does the module offer a seamless user registration experience, but it also seamlessly integrates with the existing Pterodactyl login theme. This ensures consistency in the visual appearance and branding of your panel, creating a cohesive and professional interface for your clients<br>
 
 With the Pterodactyl Register Module, you can effortlessly enhance your Pterodactyl panel by providing a dedicated registration page that aligns with the familiar Pterodactyl design, ultimately improving user engagement and satisfaction.
-<br>
-<br>
+
 
 ## ⚙️ Installation
 
