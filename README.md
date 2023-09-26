@@ -60,7 +60,6 @@ Additionally, regardless of the version of Pterodactyl you are using, add the fo
 ```php
 <Route path={`${path}/register`} component={RegisterContainer} exact/>
 ```
-
 <br>
 
 ## 🎟️ Support
