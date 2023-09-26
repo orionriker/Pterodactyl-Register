@@ -1,4 +1,4 @@
-# 📦 Pterodactyl Register
+# Pterodactyl Register
 
 <div align="center">
   <img alt="GitHub Stars" src="https://img.shields.io/github/stars/gamemaster123356/Pterodactyl-Register?color=dodgerblue&label=stars&style=for-the-badge">
@@ -16,7 +16,7 @@ With the Pterodactyl Register Module, you can effortlessly enhance your Pterodac
 <br>
 <br>
 
-# ⚙️ Installation
+## ⚙️ Installation
 
 ### 📄 File Placement
 Copy/Paste __RegisterController.php__ to __YOUR PTERODACTYL FOLDER /app/Http/Controllers/__<br>
@@ -63,11 +63,8 @@ Additionally, regardless of the version of Pterodactyl you are using, add the fo
 <br>
 <br>
 
-# 🎟️ Support
-This module is compatible with Pterodactyl version 1.7.x. Although I haven't tested it on older versions, you can give it a try. If you encounter any issues or need assistance, please open an issue, and I'll do my best to help you.
-<br>
-<br>
-<br>
+## 🎟️ Support
+This module is compatible with Pterodactyl version 1.7.x. Although I haven't tested it on older versions, you can give it a try. If you encounter any issues or need assistance, please open an issue, and I'll do my best to help you.<br><br>
 
-# 📄 License
+## 📄 License
 This Pterodactyl Module is licensed under the **GNU General Public Lisence 3.0**
