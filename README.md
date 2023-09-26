@@ -13,6 +13,8 @@ By integrating the Pterodactyl Register Module, you can provide a streamlined an
 Not only does the module offer a seamless user registration experience, but it also seamlessly integrates with the existing Pterodactyl login theme. This ensures consistency in the visual appearance and branding of your panel, creating a cohesive and professional interface for your clients<br>
 
 With the Pterodactyl Register Module, you can effortlessly enhance your Pterodactyl panel by providing a dedicated registration page that aligns with the familiar Pterodactyl design, ultimately improving user engagement and satisfaction.
+<br>
+<br>
 
 # ⚙️ Installation
 
@@ -58,6 +60,8 @@ Additionally, regardless of the version of Pterodactyl you are using, add the fo
 ```php
 <Route path={`${path}/register`} component={RegisterContainer} exact/>
 ```
+<br>
+<br>
 
 # 🎟️ Support
 This module is compatible with Pterodactyl version 1.7.x. Although I haven't tested it on older versions, you can give it a try. If you encounter any issues or need assistance, please open an issue, and I'll do my best to help you.
