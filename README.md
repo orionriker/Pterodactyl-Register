@@ -4,7 +4,7 @@
   <img alt="GitHub Stars" src="https://img.shields.io/github/stars/gamemaster123356/Pterodactyl-Register?color=dodgerblue&label=stars&style=for-the-badge">
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/gamemaster123356/Pterodactyl-Register?color=dodgerblue&label=issues&style=for-the-badge">
   <img alt="GitHub License" src="https://img.shields.io/badge/LICENSE-gnu%20gpl%20v3-dodgerblue?style=for-the-badge">
-</div><br>
+</div><br><br>
 
 The Pterodactyl Register Module is a valuable addition to your Pterodactyl panel, enabling you to incorporate a user registration page specifically designed for your clients. This module not only allows your clients to register easily but also maintains the cohesive Pterodactyl theme, ensuring a seamless user experience throughout the panel.<br>
 
